@@ -1,0 +1,23 @@
+{
+    "name": "koa2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {},
+    "license": "MIT",
+    "scripts": {
+        "route": "nodemon ./route/app",
+        "koarouter": "nodemon ./route/koa-router",
+        "get": "nodemon ./request/get",
+        "post": "nodemon ./request/post",
+        "post_bodyparser": "nodemon ./request/post_bodyparser",
+        "static": "nodemon ./static/koa_static",
+        "cookie": "nodemon ./session-cookie/cookie"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "koa": "^2.2.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-router": "7.1",
+        "koa-static": "^3.0.0"
+    }
+}
