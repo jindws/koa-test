@@ -11,13 +11,28 @@
         "post": "nodemon ./request/post",
         "post_bodyparser": "nodemon ./request/post_bodyparser",
         "static": "nodemon ./static/koa_static",
-        "cookie": "nodemon ./session-cookie/cookie"
+        "cookie": "nodemon ./session-cookie/cookie",
+        "session": "nodemon ./session-cookie/session",
+        "ejs": "nodemon ./ejs/index",
+        "busboy": "nodemon ./file/busboy",
+        "mysql_create": "nodemon ./mysql/create",
+        "mysql_pool": "nodemon ./mysql/pool",
+        "mysql": "nodemon ./mysql/index"
+
     },
     "dependencies": {
         "fs": "^0.0.1-security",
         "koa": "^2.2.0",
         "koa-bodyparser": "^4.2.0",
         "koa-router": "7.1",
-        "koa-static": "^3.0.0"
+        "koa-static": "^3.0.0",
+        "mysql": "^2.13.0"
+    },
+    "devDependencies": {
+        "busboy": "^0.2.14",
+        "ejs": "^2.5.6",
+        "koa-mysql-session": "^0.0.2",
+        "koa-session-minimal": "^3.0.3",
+        "koa-views": "^6.0.1"
     }
 }
